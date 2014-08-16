@@ -7,10 +7,16 @@ gem 'uglifier', '>= 1.3.0'
 gem 'coffee-rails', '~> 4.0.0'
 gem 'jquery-rails'
 gem 'jbuilder', '~> 2.0'
+
 gem 'bower-rails'
 gem 'angular-rails-templates'
 
-gem 'sdoc', '~> 0.4.0',          group: :doc
+gem "foreman"
+group :production, :staging do
+  gem "rails_12factor"
+  gem "rails_stdout_logging"
+  gem "rails_serve_static_assets"
+end
 
 group :test, :development do
   gem "rspec"
@@ -23,10 +29,7 @@ group :test, :development do
   gem 'phantomjs'
 end
 
-gem "foreman"
-group :production, :staging do
-  gem "rails_12factor"
-  gem "rails_stdout_logging"
-  gem "rails_serve_static_assets"
+group :doc do
+  gem 'sdoc', require: false
 end
 

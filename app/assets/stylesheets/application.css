@@ -11,6 +11,6 @@
  * file per style scope.
  *
  *= require_self
- *= require bootstrap-sass-official/vendor/assets/stylesheets/bootstrap.scss
+ *= require bootstrap-sass-official/vendor/assets/stylesheets/bootstrap.css
  *= require_tree .
  */

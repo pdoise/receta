@@ -194,7 +194,7 @@ DEPENDENCIES
   rspec
   rspec-rails (~> 2.0)
   sass-rails (~> 4.0.3)
-  sdoc (~> 0.4.0)
+  sdoc
   selenium-webdriver
   teaspoon
   uglifier (>= 1.3.0)
