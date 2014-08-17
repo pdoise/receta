@@ -1,1 +1,1 @@
-json.(recipe, :id, :name, :instructions, :contributer)
+json.(recipe, :id, :name, :instructions, :contributor)

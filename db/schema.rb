@@ -19,7 +19,7 @@ ActiveRecord::Schema.define(version: 20140816020844) do
   create_table "recipes", force: true do |t|
     t.string   "name"
     t.text     "instructions"
-    t.string   "contributer"
+    t.string   "contributor"
     t.datetime "created_at"
     t.datetime "updated_at"
   end

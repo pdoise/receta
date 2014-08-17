@@ -3,7 +3,7 @@ class RecipesController < ApplicationController
 
   def index
     @recipes = if params[:keywords]
-                 Recipe.where('name ilike ?',"%#{params[:keywords]}%")
+                 Recipe.where('name ilike ? OR contributor ilike ?',"%#{params[:keywords]}%", "%#{params[:keywords]}%")
                else
                  Recipe.all
                end
@@ -14,14 +14,14 @@ class RecipesController < ApplicationController
   end
 
   def create
-    @recipe = Recipe.new(params.require(:recipe).permit(:name,:instructions,:contributer))
+    @recipe = Recipe.new(params.require(:recipe).permit(:name,:instructions,:contributor))
     @recipe.save
     render 'show', status: 201
   end
 
   def update
     recipe = Recipe.find(params[:id])
-    recipe.update_attributes(params.require(:recipe).permit(:name,:instructions,:contributer))
+    recipe.update_attributes(params.require(:recipe).permit(:name,:instructions,:contributor))
     head :no_content
   end
 
