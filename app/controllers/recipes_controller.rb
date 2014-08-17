@@ -15,8 +15,11 @@ class RecipesController < ApplicationController
 
   def create
     @recipe = Recipe.new(params.require(:recipe).permit(:name,:instructions,:contributor))
-    @recipe.save
-    render 'show', status: 201
+    if @recipe.save
+      render 'show', status: 201
+    else
+      render 'edit'
+    end
   end
 
   def update

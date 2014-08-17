@@ -28,7 +28,7 @@ controllers.controller("RecipeController", [ '$scope', '$routeParams', '$resourc
         $location.path("/")
 
     $scope.save = ->
-      onError = (_httpResponse)-> flash.error = "Something went wrong"
+      onError = (_httpResponse)-> flash.error = "You must add a recipe name"
       if $scope.recipe.id
         $scope.recipe.$save(
           ( ()-> $location.path("/recipes/#{$scope.recipe.id}") ),
