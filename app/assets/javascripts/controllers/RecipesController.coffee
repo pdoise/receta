@@ -9,6 +9,9 @@ controllers.controller("RecipesController", [ '$scope', '$routeParams', '$locati
     else
       Recipe.query(keywords: $routeParams.keywords, (results)-> $scope.recipes = results)
 
+    $scope.rootPath = (keywords)->  $location.path("/").search('keywords',keywords)
+    Recipe = $resource('/recipes/:recipeId', { recipeId: "@id", format: 'json' })
+
     $scope.view = (recipeId)-> $location.path("/recipes/#{recipeId}")
 
     $scope.newRecipe = -> $location.path("/recipes/new")
