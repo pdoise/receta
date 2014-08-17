@@ -65,11 +65,13 @@ Recipe.create([
     Cajun seasoning
     Salt
     Pinch of crab boil
+    Rice
 
     Prepare:
     1. Cook vegetable until onions are soft
     2. add soup, crawfish and seasonings
-    3. Cook about 20 stirring occasionally" },
+    3. Cook about 20 stirring occasionally
+    4. Serve on rice"},
 
   { name: "Seafood Gumbo", contributor: "Phillip Doise" },
 
