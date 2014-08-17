@@ -25,6 +25,7 @@ Recipe.create([
   4. Add chicken and lightly cook (will finish cooking during boil). The remove from pot.
   5. Cook sausage then put chicken and vegetables back in pot and add broth, rice, tomato sauce, crab boil and add salt to taste.
   6. Bring to boil then set to low heat, cover pot and let sit for 30 to 40 mins until rice is cooked" },
+
   { name: "Crawfish Fettuccine", contributor: "Phillip Doise", instructions: "Ingredients:
     1 stick of butter
     1 onion chopped
@@ -45,12 +46,13 @@ Recipe.create([
     2. Cook vegetables untill onions are soft
     3. Stir in flour and cook a minute
     4. Add crawfish and cook until hot
-    5. Add velveta and seasonings
+    5. Add velveta, cream and seasonings
     6. Cover and simmer for 20 mins stirring occasionally
     7. Meanwhile boil fettuccine and drain
     8. Preheat oven to 350
     9. Butter baking pan, stir in fettuccine and crawfish, sprinkle parmesan on top
     10. Bake for about 30 mins"},
+
   { name: "Crawfish Etouffee", contributor: "Phillip Doise", instructions: "Ingredients:
     1/2 an onion chopped
     1/2 a bell pepper chopped
@@ -68,7 +70,9 @@ Recipe.create([
     1. Cook vegetable until onions are soft
     2. add soup, crawfish and seasonings
     3. Cook about 20 stirring occasionally" },
+
   { name: "Seafood Gumbo", contributor: "Phillip Doise" },
+
   { name: "La Casa Salsa", contributor: "Jana Griffin", instructions: "Ingredients:
     Olive oil
     1 bunch of green onions
@@ -80,6 +84,7 @@ Recipe.create([
 
     Prepare:
     Cook the green onions down with a little olive oil. Add garlic and jalapenos, cook 5 mins. Add tomatoes and rotel, cook 30 more minutes. Add salt to taste. Add water as needed."},
+
   { name: "Crawfish Casserole", contributor: "Jana Griffin", instructions: "Ingredients:
     1 onion
     1 bell pepper
