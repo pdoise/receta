@@ -28,6 +28,16 @@
       </textarea>
     </div>
   </div>
+  <div class="form-group" ng-class="{'has-warning has-feedback':errors.contributer}">
+    <label
+      for="contributer"
+      class="col-md-2 control-label col-md-offset-2">
+      Contributer
+    </label>
+    <div class="col-md-5">
+      <input type="text" name="contributer" class="form-control" placeholder="e.g. John Doe" ng-model="recipe.contributer">
+    </div>
+  </div>
   <div class="form-group">
     <div class="col-md-offset-2 col-md-3">
       <button class="btn btn-default" ng-click="cancel()"> Cancel</button>
