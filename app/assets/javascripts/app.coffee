@@ -1,4 +1,5 @@
 receta = angular.module('receta',[
+  'confirmClick',
   'templates',
   'ngRoute',
   'ngResource',

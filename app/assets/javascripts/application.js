@@ -17,4 +17,5 @@
 //= require angular-resource/angular-resource
 //= require angular-rails-templates
 //= require angular-flash/dist/angular-flash
+//= require angular-confirm-click
 //= require_tree .
