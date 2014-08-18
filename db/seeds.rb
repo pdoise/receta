@@ -91,7 +91,7 @@ Recipe.create([
     "You can add mashed avocado to make this a green dip if you like.
     1/2 lb andouille, chopped
     1 brick cream cheese
-    4 oz sour cream (we used "greek" sour cream)
+    4 oz sour cream (we used 'greek' sour cream)
     Magic Swamp Dust Fire Department Blend spicy cajun
     seasoning several tablespoons slice green onions (tops only)
     hot sauce to taste
@@ -250,4 +250,218 @@ Recipe.create([
     6. Remove skillet from burner and add egg blending well.
     7. Boil bell pepper halves in water for 5 minutes. Remove from water and remove excess water.
     8. Stuff bell peppers with mixture. Bake for 20 minutes"},
+
+  { name: "Creole Crawfish and Tasso Chowder", contributor: "Mike", instructions:
+    "Ingredients:
+    ½ c. Salad oil
+    ½ lb. Bacon, diced
+    1 cup Tasso, finely diced
+    1 Large Onion, diced
+    3 Celery stalks, diced
+    1 large carrot, diced
+    1 ea. Red and Green Peppers, diced
+    2 ears Corn, remove kernels from ears
+    1 Tbs. Tarragon, Thyme, Kosher Salt
+    1 ½ Tbs. Garlic, minced
+    2 tsp. Fresh cracked black pepper
+    1 ea. Bay leaves, 1 pinch Cayenne pepper
+    ½ c. White wine
+    ¼ c. Worcestershire sauce, 2 dashes Tabasco
+    1/2 gal. Shrimp stock or broth
+    1 c. Blonde roux
+    1 qt. Heavy cream
+    4 c. Crawfish tails, pre‐cooked
+    3 ea. Russet potatoes, cubed and par‐boiled
+
+    Directions:
+    Heat oil in a medium stock pot, add bacon, sauté 3 to 5 minutes or until bacon is slightly crispy. Add Tasso, onions, celery, carrots and peppers, sauté for 5 to 7 minutes. Add corn, garlic, herbs, and spices, sauté another 2 to 3 minutes. Deglaze with white wine, Worcestershire, and Tabasco, simmer for 2‐3 minutes. Add shrimp stock, bring to a boil then whisk in roux, stirring well, so no lumps form. Turn down heat and simmer for 5 minutes, add heavy cream, crawfish, and strained potatoes. Simmer for 5 to 10 minutes. Season to taste."},
+
+  { name: "Crockpot Brown Sugar Balsamic Glazed Pork Tenderloin", contributor: "Mike", instructions:
+    "Serves: 6
+    Ingredients:
+    2 pounds Pork tenderloin
+    1 teaspoon Ground sage
+    ½ teaspoon Salt
+    ¼ teaspoon Pepper
+    1 clove Garlic; crushed
+    ½ cup Water
+    ½ cup Brown sugar
+    1 tablespoon Cornstarch
+    ¼ cup Balsamic Vinegar
+    ½ cup Water
+    2 tablespoons Soy sauce
+
+    Instructions:
+    1. Mix together the seasonings: sage, salt, pepper and garlic.
+    2. Rub over tenderloin. Place ½ cup water in slow cooker; place tenderloin in slow cooker.
+    3. Cook on low for 6-8 hours.
+    4. hour before the roast is finished, mix together the ingredients for the glaze in a small sauce pan: brown sugar, cornstarch, balsamic vinegar, water, soy sauce.
+    5. Heat over medium and stir until mixture thickens, about 4 minutes.
+    6. Brush roast with glaze 2 or 3 times during the last hour of cooking. (For a more caramelized crust: remove from crockpot and place on aluminum lined sheet pan, glaze, and set under broiler for 1-2 minutes until bubbly and caramelized. Repeat 2 to 3 more times until desired crust is achieved.)
+    7. Serve with remaining glaze on the side."},
+
+  { name: "Frank's Redhot Buffalo Chicken Wings", contributor: "Mike", instructions:
+    "Servings: 6 to 8 servings
+    Prep Time: 10
+    Cook Time: 20
+
+    INGREDIENTS:
+    2 1/2 lbs. chicken wing pieces
+    3/4 cup any flavor FRANK'S® REDHOT® Wings Sauce
+
+    DIRECTIONS:
+
+    BAKE wings in foil-lined pan at 500 °F on lowest oven rack for 20 to 25 min. until crispy, turning once. TOSS wings in sauce to coat.
+    Tip: You may substitute 1/2 cup FRANK'S® REDHOT® Sauce mixed with 1/3 cup melted butter for the Wings Sauce.
+    Alternate Cooking Directions: Deep-fry at 375°F for 10 min. Broil 6-inches from heat 15 to 20 min., turning once. Grill over medium heat 20 to 25 min., turning often. "},
+
+  { name: "Mardi Gras Pasta", contributor: "Mike", instructions:
+    "Serves 6
+    1/8 lb butter
+    1 onion, chopped
+    1 green and 1 yellow bell pepper, chopped
+    1 pound crawfish tails
+    1 box frozen corn
+    2 cups boiled potatoes, diced
+    1 can cream of shrimp soup
+    1 pint whipping cream
+    1 teaspoon lemon/pepper seasoning
+    1/2 teaspoon liquid crab boil
+    1/2 teaspoons Down The Bayou Cajun seasoning
+    1 cup green Onion tops, chopped
+    1 pound tri‐color radian pasta, cooked
+
+    Melt butter, Sautee onions and peppers until onions are clear. Add crawfish and corn; simmer 10 minutes. Add potatoes, soup and cream; simmer 10 minutes. Add remaining seasonings. Adjust salt to suit your taste. Toss with pasta and serve."},
+
+  { name: "Pot Roast", contributor: "Mike", instructions:
+    "Supposedly the Best Pot Roast Ever!
+    (in the CrockPot)
+    •2‐5 pound pot roast (any kind)
+    •1 envelope ranch dressing (dried)
+    •1 envelope Italian dressing
+    •1 envelope brown gravy mix •Potatoes and Carrots
+    •1 to 1‐1/2 cup water What you do:
+
+    1.If you wanted carrots and potatoes in your CrockPot, cut them to your liking and put in the bottom of your CrockPot.
+    2.Put Roast on top of vegatables.
+    3.Sprinkle all 3 spice envelopes on top.
+    4.Add the water.
+    5.Cook on LOW for 6‐10 hours until tender ..."},
+
+  { name: "Ribs", contributor: "Mike", instructions:
+    "Ingredients:
+    3/4 cup light brown sugar
+    1 teaspoon hickory smoke salt
+    1 tablespoon paprika
+    1 tablespoon garlic powder
+    1/2 teaspoon ground red pepper (optional)
+    2 cups of your favorite barbecue sauce (mine is Sweet Baby Ray)
+
+    Directions:
+    1. Preheat oven to 300 degrees f.
+    2. Peel off tough membrane that covers the bony side of the ribs.
+    3. Mix together the sugar and spices to make the rub.
+    4. Apply rub to ribs on all sides.
+    5. Lay ribs on two layers of foil, shiny side out and meaty side down.
+    6. Lay two layers of foil on top of ribs and roll and crimp edges tightly, edges facing up to seal.
+    7. Place on baking sheet and bake for 2‐2 1/2 hours or until meat is starting to shrink away from the ends of the bone.
+    8. Remove from oven.
+    9. Heat broiler.
+    10. Cut ribs into serving sized portions of 2 or 3 ribs.
+    11. Arrange on broiler pan, bony side up.
+    12. Brush on sauce.
+    13. Broil for 1 or 2 minutes until sauce is cooked on and bubbly.
+    14. Turn ribs over.
+    15. Repeat on other side.
+    16. Alternately, you can grill the ribs on your grill to cook on the sauce."},
+
+  { name: "Shrimp & Crab Stew", contributor: "Mike", instructions:
+    "Note: he uses blue crabs that were boiled in crab boil, then cleaned and halved, leaving the legs and claw attached to the body. Also, he made enough for a restaurant ‐ this is a scaled down version for home use.
+
+    Ingredients
+    1 cup light roux
+    1 lb bag mixed seasoning veggies (onion/bell pepper/celery)
+    1 can Rotel at least
+    1/2 gallon of water cajun seasoning to taste
+    1 lb peeled deveined medium shrimp
+    several boiled crabs, cleaned of top shell and gills, broken in halves
+
+    Directions:
+    In a stock pot, heat the roux over medium heat. Add the veggies and Rotel, stirring well, let smother until veggies are very soft (at least 20 minutes), stirring often to make sure the roux isn't sticking to the bottom. When the veggies are cooked down, add the water, whisking to incorporate, and bring to a boil. Let it boil gently for about 5 minutes to check consistency, adding water if it's too thick or letting it cook longer if it's too thin. When you've got it to your preferred consistency, add seasoning (salt/pepper/red pepper/garlic powder/hot sauce) to taste. Lower the heat and let it simmer for 15 minutes. Add the shrimp and crabs, let simmer until shrimp turn pink. Serve over cooked rice. Of course, it's always better served the next day. If you want to serve it with lots of flavor right out the pot, use chicken stock instead of water. Adjust the recipe to your crowd."},
+
+  { name: "Shrimp Creole", contributor: "Mike", instructions:
+    "2 lbs. raw shrimp
+    1 16 oz. can whole tomatoes, well crushed
+    1 small can tomato sauce
+    1 onion, finely chopped
+    1/2 bell pepper
+    2 cloves garlic, minced
+    Cajun Seasoning
+    2 T flour
+    2 T oil
+    1 cup stock or water
+    hot sauce to taste
+    (sugar is optional)
+
+    Make a roux by combining flour and oil, stirring constantly over low heat until golden brown. Add onion, garlic, and bell pepper, saute` until tender. To this add crushed tomatoes and tomato sauce and simmer until oil comes to top. Skim any oil or foam. Add water, seasoning and hot sauce. Simmer for at least 15 minutes. Give it a taste. You may want to add a pinch of sugar to balance the acidity of the tomatoes. Add raw shrimp (peeled & cleaned) and simmer for another 5 minutes. Serve over rice."},
+
+  { name: "Slow Cooker Chicken Noodle Soup", contributor: "Mike", instructions:
+    "Prep Time: 15 minutes
+    Cook Time: 7 hours
+    Yield: 4 - 5 servings
+
+    Ingredients:
+    • 1 1/2 lbs boneless skinless chicken breasts
+    • 5 medium carrots, peeled and chopped (1 3/4 cups)
+    • 1 medium yellow onion, chopped (1 1/2 cups)
+    • 4 stalks celery, chopped (1 1/4 cups)
+    • 3 cloves garlic, minced
+    • 3 Tbsp extra virgin olive oil
+    • 6 cups low-sodium chicken broth (3 - 15 oz cans)
+    • 1 cup water
+    • 1/2 tsp dried thyme
+    • 1/2 tsp dried rosemary, crushed
+    • 1/4 tsp celery seed, finely crushed*
+    • 2 bay leaves
+    • Salt and freshly ground black pepper, to taste
+    • 2 cups uncooked wide egg noodles
+    • 3 1/2 Tbsp chopped fresh parsley
+    • 1 Tbsp fresh lemon juice
+    • Saltine crackers or parmesan cheese, for serving (optional)
+
+    Directions:
+    • To a slow cooker, add chicken (un-cut), diced carrots, onion, celery, and garlic. Drizzle olive oil over top then add in chicken broth, water, thyme, rosemary, celery seed, bay leaves and season with salt and pepper to taste. Cover and cook on low heat 6 - 7 hours.
+    • Remove cooked chicken and allow to rest 10 minutes, then dice into bite size pieces. Meanwhile, add egg noodles and parsley to slow cooker. Increase temperature to high, cover and cook 10 minutes longer (or until noodles are tender). Stir in lemon juice and toss in cooked, diced chicken. Serve warm with saltine crackers or top with Parmesan cheese if desired.
+    • *I just crushed the rosemary in the palm of my hand then for the celery seed, I placed it in a ziploc bag and crushed it with the flat side of a meat mallet."},
+
+  { name: "Sweet‐and‐Sour Meatballs", contributor: "Mike", instructions:
+    "Instructions:
+    3/4 pound extra‐lean ground beef or 3/4 pound ground turkey
+    1 small onion, minced
+    1/4 cup egg substitute
+    1/2 cup Italian‐seasoned breadcrumbs
+    3/4 cup ketchup
+    1/3 cup white vinegar
+    1/4 cup low‐sodium Worcestershire sauce
+    3 tablespoons sugar
+    2 teaspoons dry mustard
+
+    Preparation:
+    Combine first 5 ingredients; shape mixture into 1‐inch balls. Brown meatballs, in batches, in a large nonstick skillet over medium‐high heat. Remove meatballs from skillet, and wipe skillet clean. Stir together ketchup and next 4 ingredients in skillet; bring to a boil. Add meatballs, reduce heat, and simmer 5 minutes or until meatballs are no longer pink."},
+
+  { name: "Tomatoe Sauce", contributor: "Mike", instructions:
+    "Makes 4 servings
+    Ingredients:
+    • 2 (28 ounce) cans whole peeled tomatoes
+    • 1 (6 ounce) can tomato paste
+    • 4 tablespoons olive oil
+    • 4 cloves garlic, minced
+    • 1/4 cup chopped fresh parsley
+    • 1/2 tablespoon salt
+    • 1/2 cup red wine
+
+    Directions:
+    1. In a medium bowl, blend the whole tomatoes and paste; reserve.
+    2. In a large saucepan, warm olive oil over medium‐low heat and add garlic; cook for a few minutes, but make sure to not brown the garlic.
+    3. Pour tomato mixture in saucepan and stir; cook over medium heat for 10 minutes. Add parsley, salt and wine; reduce heat to low and simmer, stirring occasionally, until sauce thickens; serve."},
 ])
