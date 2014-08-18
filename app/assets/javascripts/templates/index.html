@@ -1,37 +1,33 @@
-<div id="container">
-  <div style="background-color:#006399">
-  <h2 style="color:white">&nbsp;Recipe Book</h2></div><br>
-  <div id="menu" class="text-center col-md-10 col-md-offset-1" style="float:left;">
-    <header class="row">
-      <h4 class="text-center col-md-10 col-md-offset-1">Find Recipes</h4>
-    </header>
-    <section class="row">
-      <form>
-        <div class="form-group col-md-10 col-md-offset-1 text-center">
-          <div class="input-group">
-           <input ng-model="keywords" name="keywords" type="text" autofocus class="form-control" placeholder="search recipe or contributor name...">
-           <span class="input-group-btn">
-             <button ng-click="search(keywords)" class="btn btn-info">Search</button>
-             <button ng-click="rootPath()" class="btn btn-info">Show All</button>
-           </span>
-          </div>
+<div id="menu" class="text-center col-md-10 col-md-offset-1" style="float:left;">
+  <header class="row">
+    <h4 class="text-center col-md-10 col-md-offset-1">Find Recipes</h4>
+  </header>
+  <section class="row">
+    <form>
+      <div class="form-group col-md-10 col-md-offset-1 text-center">
+        <div class="input-group">
+         <input ng-model="keywords" name="keywords" type="text" autofocus class="form-control" placeholder="search recipe or contributor name...">
+         <span class="input-group-btn">
+           <button ng-click="search(keywords)" class="btn btn-info">Search</button>
+           <button ng-click="rootPath()" class="btn btn-info">Show All</button>
+         </span>
         </div>
-        <div class="form-group col-md-10 col-md-offset-1 text-center"><br>
-          <button ng-click="newRecipe()" class="btn btn-primary btn-med">Create New Recipe</button>
-        </div>
-      </form>
-    </section>
-  </div>
-  <div id="content" class="well col-md-10 col-md-offset-1" style="background-color:#A9E2F3;float:left;"><br>
-    <section class="row" ng-if="recipes">
-      <ul class="list-unstyled">
-        <li ng-repeat="recipe in recipes | orderBy:'name'" >
-          <section class="well col-md-10 col-md-offset-1">
-            <h1 class="h4 text-center col-md-6 col-md-offset-3"><a href ng-click="view(recipe.id)" >{{recipe.name}}</a></h1>
-          </section>
-        </li>
-      </ul>
-    </section>
-    <div><h1 class="h4 text-center col-md-6 col-md-offset-3" style="color:#006399">End of Results</h1></div>
-  </div>
+      </div>
+      <div class="form-group col-md-10 col-md-offset-1 text-center"><br>
+        <button ng-click="newRecipe()" class="btn btn-primary btn-med">Create New Recipe</button>
+      </div>
+    </form>
+  </section>
+</div>
+<div id="content" class="well col-md-10 col-md-offset-1" style="background-color:#A9E2F3;float:left;"><br>
+  <section class="row" ng-if="recipes">
+    <ul class="list-unstyled">
+      <li ng-repeat="recipe in recipes | orderBy:'name'" >
+        <section class="well col-md-10 col-md-offset-1">
+          <h1 class="h4 text-center col-md-6 col-md-offset-3"><a href ng-click="view(recipe.id)" >{{recipe.name}}</a></h1>
+        </section>
+      </li>
+    </ul>
+  </section>
+  <div><h1 class="h4 text-center col-md-6 col-md-offset-3" style="color:#006399">End of Results</h1></div>
 </div>
